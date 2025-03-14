@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Brain</title>
+</head>
+
+<body class="flex flex-col items-center justify-center gap-5 relative bg-emerald-500 text-emerald-50 h-screen">
+    <header class=" grid lg:grid-cols-4 w-full max-w-9/10">
+        <section class=" flex flex-col justify-center items-center">
+            <h1 class=" lg:text-5xl md:text-5xl text-4xl font-bold text-center lg:text-left">
+                Cari Tahu! Otak Kanan atau Kiri, Mana yang Lebih Dominan?
+            </h1>
+        </section>
+        <section class="text-center lg:col-span-2 flex flex-col justify-center items-center">
+            <img class=" w-full md:max-w-7/10 max-w-9/10" src="assets/img/brain.png" alt="">
+            <a href="assets/pages/game.html" class=" px-8 bg-emerald-50 text-emerald-500 py-3 rounded-full hover:ring-2 hover:ring-white hover:bg-transparent hover:text-emerald-50">Cari Tahu Sekarang!</a>
+        </section>
+        <section class=" flex-col justify-center text-right gap-5 hidden lg:flex">
+            <div class=" flex justify-end items-center text-3xl gap-3">
+                <h1 class="bg-amber-300 px-8">Questions</h1>
+            </div>
+            <div class=" flex justify-end items-center text-3xl gap-3">
+                <h1 class="bg-pink-300 px-8">Analysis</h1>
+            </div>
+        </section>
+    </header>
+</body>
+</html>
